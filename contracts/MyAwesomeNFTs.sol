@@ -21,6 +21,8 @@ contract MyAwesomeNFTs is ERC721URIStorage {
     string[] colors = ["black", "blue", "red", "green", "yellow", "#08C2A8"];
     uint256 MaxSupply = 50;
 
+    //devnotes
+
     event NewAwesomeNFTMinted(address sender, uint256 tokenId);
 
 
