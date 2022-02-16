@@ -1,0 +1,77 @@
+https://jsonkeeper.com/b/09WZ
+
+first deploy on rinkeby
+Tamass-MacBook-Pro:my-awesome-NFTs Tombola$ npx hardhat run scripts/deploy.js --network rinkeby
+Contract deployed to: 0x2DACf17E4436D4e0b596654bf9DC32F0121E833b
+Minted NFT #1
+Minted NFT #2
+https://testnets.opensea.io/collection/simplenft-lr3egr6drw
+https://rinkeby.rarible.com/collection/0x2DACf17E4436D4e0b596654bf9DC32F0121E833b/items
+
+
+deploy on rinkeby
+json data
+data:application/json;base64,ewogICAgIm5hbWUiOiAiRXBpY0xvcmRIYW1idXJnZXIiLAogICAgImRlc2NyaXB0aW9uIjogIkFuIE5GVCBmcm9tIHRoZSBoaWdobHkgYWNjbGFpbWVkIHNxdWFyZSBjb2xsZWN0aW9uIiwKICAgICJpbWFnZSI6ICJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUI0Yld4dWN6MGlhSFIwY0RvdkwzZDNkeTUzTXk1dmNtY3ZNakF3TUM5emRtY2lJSEJ5WlhObGNuWmxRWE53WldOMFVtRjBhVzg5SW5oTmFXNVpUV2x1SUcxbFpYUWlJSFpwWlhkQ2IzZzlJakFnTUNBek5UQWdNelV3SWo0S0lDQWdJRHh6ZEhsc1pUNHVZbUZ6WlNCN0lHWnBiR3c2SUhkb2FYUmxPeUJtYjI1MExXWmhiV2xzZVRvZ2MyVnlhV1k3SUdadmJuUXRjMmw2WlRvZ01UUndlRHNnZlR3dmMzUjViR1UrQ2lBZ0lDQThjbVZqZENCM2FXUjBhRDBpTVRBd0pTSWdhR1ZwWjJoMFBTSXhNREFsSWlCbWFXeHNQU0ppYkdGamF5SWdMejRLSUNBZ0lEeDBaWGgwSUhnOUlqVXdKU0lnZVQwaU5UQWxJaUJqYkdGemN6MGlZbUZ6WlNJZ1pHOXRhVzVoYm5RdFltRnpaV3hwYm1VOUltMXBaR1JzWlNJZ2RHVjRkQzFoYm1Ob2IzSTlJbTFwWkdSc1pTSStSWEJwWTB4dmNtUklZVzFpZFhKblpYSThMM1JsZUhRK0Nqd3ZjM1puUGc9PSIKfQ==
+Tamass-MacBook-Pro:my-awesome-NFTs Tombola$ npx hardhat run scripts/deploy.js --network rinkeby
+Compiling 1 file with 0.8.0
+Solidity compilation finished successfully
+Contract deployed to: 0xB46593efe37469F6171fad212B458EEC86e50fB6
+Minted NFT #1
+Minted NFT #2
+
+deploy on rinkeby
+json on chain
+Tamass-MacBook-Pro:my-awesome-NFTs Tombola$ npx hardhat run scripts/deploy.js --network rinkeby
+Contract deployed to: 0xEa58acAfdEC19ec636c91BE565b58cE39855f189
+Minted NFT #1
+Minted NFT #2
+Minted NFT #3
+Minted NFT #4
+Minted NFT #5
+Tamass-MacBook-Pro:my-awesome-NFTs Tombola$ 
+
+deploy on rinkeby 
+json on chain
+Tamass-MacBook-Pro:my-awesome-NFTs Tombola$ npx hardhat run scripts/deploy.js --network rinkeby
+Compiling 1 file with 0.8.0
+Solidity compilation finished successfully
+Contract deployed to: 0x692833173Ba4c25b787386856822527b7712C2f3
+Minted NFT #1
+Minted NFT #2
+
+deploy on rinkeby
+json on chain
+Tamass-MacBook-Pro:my-awesome-NFTs Tombola$ npx hardhat run scripts/deploy.js --network rinkeby
+Contract deployed to: 0x7d0c6523D63A482A673C71EAE29Fcf2f5C80624b
+Minted NFT #1
+Minted NFT #2
+
+deploy on rinkeby
+json on chain
+Tamass-MacBook-Pro:my-awesome-NFTs Tombola$ npx hardhat run scripts/deploy.js --network rinkeby
+Compiling 1 file with 0.8.0
+Solidity compilation finished successfully
+Contract deployed to: 0xa560c9c9A3646e5209eE5B1d9BAc98D724606D6e
+Minted NFT #1
+Minted NFT #2
+Tamass-MacBook-Pro:my-awesome-NFTs Tombola$ npx hardhat verify 0xa560c9c9A3646e5209eE5B1d9BAc98D724606D6e --network rinkeby
+Nothing to compile
+Compiling 1 file with 0.8.0
+Successfully submitted source code for contract
+contracts/MyAwesomeNFTs.sol:MyAwesomeNFTs at 0xa560c9c9A3646e5209eE5B1d9BAc98D724606D6e
+for verification on the block explorer. Waiting for verification result...
+Successfully verified contract MyAwesomeNFTs on Etherscan.
+https://rinkeby.etherscan.io/address/0xa560c9c9A3646e5209eE5B1d9BAc98D724606D6e#code
+
+TODOS:
+Chain ID Check on front end - DONE
+Verify smart contract - DONE
+dotenv configuration - DONE
+Toast notifications - DONE
+Display txn hash/link and opensealink on site after mint - DONE
+Tidy up both backend and front end codes - DONE
+Check Alert loops on frontend - DONE
+Check example code for imporvements i.e. TOAST - TOAST DONE
+Publish on github - ENV DONE for NFT, to be done for wave ???
+complete last chapter on buildspace - DONE
+link to verified smart contract - DONE
